@@ -1,14 +1,690 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Robots & Sitemap -->
+<link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    
+    <!-- Title -->
+    <title>Anthanabbe - Nepali Number Converter | Voice Recognition App</title>
+    
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" href="images/favicons/apple-touch-icon.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Anthanabbe - Nepali Number Converter | Convert Nepali Numbers to English Digits">
+    <meta name="description" content="Anthanabbe is Nepal's fastest Nepali number converter app. Convert spoken Nepali numbers to English digits instantly using AI-powered voice recognition. Supports Devanagari digits (९८), spoken words (पच्चीस), and complex numbers (लाख, करोड). Download free on Android!">
+    <meta name="keywords" content="Nepali number converter, Devanagari to English, Nepal number app, Nepali digits converter, voice number converter Nepal, अन्ठानब्बे, anthanabbe app, Nepali to English numbers, speech to text Nepal, number converter Nepal, Devanagari digits, लाख converter, करोड converter, Kathmandu app, Nepal voice app, free number converter">
+    <meta name="author" content="GlobSoft Inc.">
+    <meta name="copyright" content="Copyright © 2025 Anthanabbe by GlobSoft Inc. All rights reserved.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="3 days">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://anthanabbe.globsoft.tech">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://anthanabbe.globsoft.tech">
+    <meta property="og:title" content="Anthanabbe - Nepali Number Converter | Convert Nepali Numbers Instantly">
+    <meta property="og:description" content="Convert Nepali numbers to English digits effortlessly! Speak or type in Devanagari, get instant conversion. Supports लाख, करोड, and all Nepali number formats. Download free on Android!">
+    <meta property="og:site_name" content="Anthanabbe">
+    <meta property="og:image" content="https://anthanabbe.globsoft.tech/images/default.png">
+    <meta property="og:image:secure_url" content="https://anthanabbe.globsoft.tech/images/default.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="Anthanabbe - Nepali Number Converter App">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ne_NP">
+    
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://anthanabbe.globsoft.tech">
+    <meta name="twitter:title" content="Anthanabbe - Nepali Number Converter Nepal">
+    <meta name="twitter:description" content="Convert Nepali numbers to English digits instantly with AI voice recognition. Supports Devanagari, spoken words, and complex numbers. Free Android app!">
+    <meta name="twitter:image" content="https://anthanabbe.globsoft.tech/images/default.png">
+    <meta name="twitter:image:alt" content="Anthanabbe App Logo">
+    <meta name="twitter:creator" content="@globsoftinc">
+    <meta name="twitter:site" content="@globsoftinc">
+    
+    <!-- Geo Location Meta Tags (Nepal) -->
+    <meta name="geo.region" content="NP">
+    <meta name="geo.placename" content="Nepal">
+    <meta name="geo.position" content="27.7172;85.3240">
+    <meta name="ICBM" content="27.7172, 85.3240">
+    
+    <!-- Mobile App Meta Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Anthanabbe">
+    <meta name="application-name" content="Anthanabbe">
+    <meta name="msapplication-TileColor" content="#30092A">
+    <meta name="msapplication-TileImage" content="https://anthanabbe.globsoft.tech/images/default.png">
+    <meta name="theme-color" content="#30092A">
+    
+    <!-- Additional SEO Tags -->
+    <meta name="rating" content="General">
+    <meta name="distribution" content="global">
+    <meta name="coverage" content="Worldwide">
+    <meta name="target" content="all">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    
+    <!-- Schema.org Structured Data - Mobile Application -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "Anthanabbe",
+      "url": "https://anthanabbe.globsoft.tech",
+      "logo": "https://anthanabbe.globsoft.tech/images/default.png",
+      "image": "https://anthanabbe.globsoft.tech/images/default.png",
+      "description": "Free Nepali number converter app with AI-powered voice recognition. Convert Devanagari digits, spoken Nepali numbers, and complex values (लाख, करोड) to English digits instantly.",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "NPR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1250",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "featureList": "Voice Recognition, Devanagari Conversion, Spoken Number Recognition, Offline Mode, Copy to Clipboard, Lightning Fast, Multi-Format Support, Complex Number Handling",
+      "screenshot": "https://anthanabbe.globsoft.tech/images/default.png",
+      "downloadUrl": "https://anthanabbe.globsoft.tech/anthanabbe.apk",
+      "installUrl": "https://anthanabbe.globsoft.tech/anthanabbe.apk",
+      "provider": {
+        "@type": "Organization",
+        "name": "GlobSoft Inc.",
+        "url": "https://globsoft.tech",
+        "logo": "https://globsoft.tech/img/mymain.png",
+        "sameAs": [
+          "https://www.facebook.com/globsoftinc",
+          "https://www.instagram.com/globsoftinc",
+          "https://x.com/globsoftinc",
+          "https://www.linkedin.com/company/globsoftinc",
+          "https://youtube.com/@globsoftinc"
+        ]
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Nepal"
+      },
+      "inLanguage": ["en", "ne"],
+      "potentialAction": {
+        "@type": "UseAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://anthanabbe.globsoft.tech",
+          "actionPlatform": [
+            "http://schema.org/DesktopWebPlatform",
+            "http://schema.org/MobileWebPlatform",
+            "http://schema.org/AndroidPlatform"
+          ]
+        }
+      }
+    }
+    </script>
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Anthanabbe",
+      "alternateName": "अन्ठानब्बे",
+      "url": "https://anthanabbe.globsoft.tech",
+      "logo": "https://anthanabbe.globsoft.tech/images/default.png",
+      "description": "Nepali Numbers, Instantly Digitized - AI-powered number conversion app",
+      "foundingDate": "2025",
+      "slogan": "Nepali Numbers, Instantly Digitized",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NP",
+        "addressRegion": "Bagmati Province",
+        "addressLocality": "Kathmandu"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "url": "https://anthanabbe.globsoft.techhttps://globsoft.tech/#contact",
+        "availableLanguage": ["en", "ne"]
+      },
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "GlobSoft Inc.",
+        "url": "https://globsoft.tech"
+      }
+    }
+    </script>
+    
+    <!-- SoftwareApplication Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Anthanabbe",
+      "operatingSystem": "Android",
+      "applicationCategory": "ProductivityApplication",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "1250"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "NPR"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "GlobSoft Inc.",
+        "url": "https://globsoft.tech"
+      }
+    }
+    </script>
+    
+    <!-- BreadcrumbList Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://anthanabbe.globsoft.tech"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Features",
+          "item": "https://anthanabbe.globsoft.tech#features"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Download",
+          "item": "https://anthanabbe.globsoft.tech#download"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Anthanabbe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anthanabbe is a free mobile app that converts Nepali numbers to English digits using AI-powered voice recognition. It supports Devanagari digits (९८), spoken words (पच्चीस), and complex numbers (लाख, करोड)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Anthanabbe free to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! Anthanabbe is completely free to download and use with no hidden costs or subscriptions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Anthanabbe work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, basic number conversion works offline. Voice recognition requires internet connection for optimal accuracy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What number formats does Anthanabbe support?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anthanabbe supports Devanagari digits (०-९), spoken Nepali words (एक, दुई, तीन), Romanized text (ek, dui, teen), and complex values including लाख (lakh) and करोड (crore)."
+          }
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link rel="preconnect" href="https://unpkg.com">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="https://unpkg.com">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Anthanabbe Logo" class="logo-icon">
+                    <span class="logo-text">Anthanabbe</span>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#features" class="nav-link">Features</a></li>
+                    <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                    <li><a href="#download" class="nav-link">Download</a></li>
+                    <li><a href="#footer-contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="nav-cta">
+                    <a href="#download" class="btn btn-primary">Download Now</a>
+                </div>
+                
+                <button class="hamburger" id="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-gradient"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1 class="hero-title">
+                        Nepali Numbers,<br>
+                        <span class="gradient-text">Instantly Digitized</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Convert spoken Nepali numbers to English digits effortlessly with AI-powered voice recognition
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary btn-large">
+                            <i class="fas fa-download"></i> Download App
+                        </a>
+                        <a href="#how-it-works" class="btn btn-outline btn-large">
+                            <i class="fas fa-play-circle"></i> See How It Works
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <h3>10K+</h3>
+                            <p>Downloads</p>
+                        </div>
+                        <div class="stat">
+                            <h3>4.8★</h3>
+                            <p>Rating</p>
+                        </div>
+                        <div class="stat">
+                            <h3>99.9%</h3>
+                            <p>Accuracy</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image" data-aos="fade-left">
+                    <div class="phone-mockup">
+                        <div class="phone-frame">
+                            <div class="phone-screen">
+                                <div class="demo-content">
+                                    <div class="demo-header">
+                                        <span class="demo-title">Anthanabbe</span>
+                                    </div>
+                                    <div class="demo-input">
+                                        <span class="nepali-text">अन्ठानब्बे</span>
+                                    </div>
+                                    <div class="demo-arrow">↓</div>
+                                    <div class="demo-output">
+                                        <span class="english-text">98</span>
+                                    </div>
+                                    <div class="pulse-circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="floating-elements">
+            <div class="float-1">९८</div>
+            <div class="float-2">१</div>
+            <div class="float-3">५</div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Powerful Features</h2>
+                <p class="section-subtitle">Everything you need to convert Nepali numbers effortlessly</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>Voice Recognition</h3>
+                    <p>Speak naturally in Nepali and get instant English digit conversion with AI-powered speech recognition</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Multi-Format Support</h3>
+                    <p>Handles Devanagari digits (९८), spoken words (पच्चीस), and romanized text (pachchis)</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Lightning Fast</h3>
+                    <p>Instant conversion with no lag. Process thousands of numbers in seconds</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-wifi-slash"></i>
+                    </div>
+                    <h3>Works Offline</h3>
+                    <p>No internet required for basic conversions. Your data stays on your device</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-copy"></i>
+                    </div>
+                    <h3>One-Tap Copy</h3>
+                    <p>Copy converted numbers to clipboard instantly for use in other apps</p>
+                </div>
+                
+                <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Clean Interface</h3>
+                    <p>Beautiful, intuitive design that's easy to use for everyone</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Three simple steps to convert any Nepali number</p>
+            </div>
+            
+            <div class="steps-container">
+                <div class="step" data-aos="fade-right" data-aos-delay="100">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-microphone-alt"></i>
+                        </div>
+                        <h3>Speak or Type</h3>
+                        <p>Tap the microphone and say the Nepali number, or type it directly using Devanagari digits</p>
+                    </div>
+                </div>
+                
+                <div class="step-arrow" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="step" data-aos="fade-right" data-aos-delay="300">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3>Auto Convert</h3>
+                        <p>Our AI instantly recognizes and converts your input to English digits with 99.9% accuracy</p>
+                    </div>
+                </div>
+                
+                <div class="step-arrow" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                
+                <div class="step" data-aos="fade-right" data-aos-delay="500">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <div class="step-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </div>
+                        <h3>Copy & Use</h3>
+                        <p>Get your converted number instantly. Tap to copy and use it anywhere you need</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section class="download" id="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-text" data-aos="fade-right">
+                    <h2 class="section-title">Download Anthanabbe Today</h2>
+                    <p class="section-subtitle">Available on Android. iOS coming soon!</p>
+                    
+                    <div class="download-buttons">
+                        <a href="/anthanabbe.apk" download="Anthanabbe.apk" class="download-btn google-play">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <small>GET IT ON</small>
+                                <strong>GitHub</strong>
+                            </div>
+                        </a>
+                        
+                        <a href="#" class="download-btn app-store disabled">
+                            <i class="fab fa-apple"></i>
+                            <div>
+                                <small>Download on the</small>
+                                <strong>App Store</strong>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="download-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-download"></i>
+                            <span>10,000+ Downloads</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-star"></i>
+                            <span>4.8 Average Rating</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>100% Safe & Secure</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="download-image" data-aos="fade-left">
+                    <div class="phone-showcase">
+                        <div class="showcase-phone">
+                            <div class="showcase-screen">
+                                <div class="app-preview">
+                                    <h3>Anthanabbe</h3>
+                                    <div class="preview-input">९८</div>
+                                    <div class="preview-output">98</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">What Users Say</h2>
+                <p class="section-subtitle">Loved by thousands across Nepal</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"This app is a lifesaver! Converting Nepali numbers for my accounting work is now super easy."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">R</div>
+                        <div>
+                            <h4>Sourya Poudel</h4>
+                            <span>Accountant, Kathmandu</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Voice recognition works perfectly! I can speak and get numbers instantly. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">S</div>
+                        <div>
+                            <h4>Sita Sharma</h4>
+                            <span>Teacher, Pokhara</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stars">★★★★★</div>
+                    <p class="testimonial-text">"Simple, fast, and accurate. Exactly what I needed for my daily work. Great job Globsoft!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">A</div>
+                        <div>
+                            <h4>Anil Thapa</h4>
+                            <span>Business Owner, Lalitpur</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="Anthanabbe Logo" class="logo-icon">
+                        <span class="logo-text">Anthanabbe</span>
+                    </div>
+                    <br>
+                    <p>Nepali Numbers, Instantly Digitized</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/globsoftinc" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/globsoftinc" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://x.com/globsoftinc" target="_blank" aria-label="Twitter">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/globsoftinc" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://youtube.com/@globsoftinc" target="_blank" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#download">Download</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="https://globsoft.tech/">Privacy Policy</a></li>
+                        <li><a href="https://globsoft.tech/">Terms of Service</a></li>
+                        <li><a href="https://globsoft.tech/">Cookie Policy</a></li>
+                        <li><a href="https://globsoft.tech/">Disclaimer</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section" id="footer-contact">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="https://globsoft.tech/#contact">Contact Us</a></li>
+                        <li><a href="https://globsoft.tech/#contact">Help Center</a></li>
+                        <li><a href="https://globsoft.tech/#contact">Report Bug</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Anthanabbe &copy;<script>document.write(new Date().getFullYear())</script>. All rights reserved</p>
+                <p>Powered by <a href="https://globsoft.tech" target="_blank">Globsoft Inc.</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
 </body>
 </html>

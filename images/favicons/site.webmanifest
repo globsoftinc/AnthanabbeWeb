@@ -1,0 +1,86 @@
+{
+    "name": "Anthanabbe - Nepali Number Converter",
+    "short_name": "Anthanabbe",
+    "description": "Convert Nepali numbers to English digits instantly with AI-powered voice recognition",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#30092A",
+    "orientation": "portrait",
+    "scope": "/",
+    "lang": "en-US",
+    "dir": "ltr",
+    "icons": [
+      {
+        "src": "/images/favicons/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/favicons/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png",
+        "purpose": "any"
+      },
+      {
+        "src": "/images/favicons/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": "image/png",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "/images/default.png",
+        "sizes": "512x512",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "categories": [
+      "productivity",
+      "utilities",
+      "education"
+    ],
+    "screenshots": [
+      {
+        "src": "/images/default.png",
+        "sizes": "1280x720",
+        "type": "image/png",
+        "label": "Anthanabbe App Screenshot"
+      }
+    ],
+    "shortcuts": [
+      {
+        "name": "Convert Number",
+        "short_name": "Convert",
+        "description": "Open the number converter",
+        "url": "/#home",
+        "icons": [
+          {
+            "src": "/images/favicons/favicon-32x32.png",
+            "sizes": "32x32"
+          }
+        ]
+      },
+      {
+        "name": "Download App",
+        "short_name": "Download",
+        "description": "Download Anthanabbe on Android",
+        "url": "/#download",
+        "icons": [
+          {
+            "src": "/images/favicons/favicon-32x32.png",
+            "sizes": "32x32"
+          }
+        ]
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "github",
+        "url": "https://anthanabbe.globsoft.tech/anthanabbe.apk",
+        "id": "com.rajanpoudel.anthanabbe"
+      }
+    ],
+    "prefer_related_applications": true
+  }

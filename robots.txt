@@ -1,0 +1,65 @@
+# Anthanabbe - Robots.txt
+# Website: https://anthanabbe.globsoft.tech
+# Updated: 2025-11-24
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://anthanabbe.globsoft.tech/sitemap.xml
+
+# Crawl delay (optional - be nice to servers)
+Crawl-delay: 1
+
+# Disallow admin/private areas (if any in future)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow important resources
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Block specific bots (if needed)
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+# Google-specific
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /images/
+
+# Bing-specific
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Mobile crawlers
+User-agent: Googlebot-Mobile
+Allow: /
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Archive bots
+User-agent: ia_archiver
+Allow: /
+
+# Host
+Host: https://anthanabbe.globsoft.tech
